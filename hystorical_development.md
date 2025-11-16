@@ -1,35 +1,14 @@
 # Historical Development 
-## Late 1800s – First analogues 
-Punch cards were developed by Herman Hollerith. They were used in early computers for data input and storage.  
-Technology - Punch tape — continuous rolls of paper with holes encoding data. 
-IBM later used and marketed punched cards with the iconic phrase “Do not fold, spindle, or mutilate”.  
+## Punched card system (1890)
+Punch cards were developed by Herman Hollerith to process census data collected at the United States in 1880. There were 50 million tables, and it was huge amount of data to process at that time. (Heide, 1997)  Herman Hollerith was born in 1860 and grew up in New York City in the years just after the Civil War. He studied mechanical engineering at Columbia College. In 1887, Billings approached Hollerith with this problem. Hollerith suggested representing information about each person using punched holes in a card and developing a machine to count different combinations of data. (Heide, 1997)
+Of course, after the innovation was invented, it became clear that this technology could be useful in other industries as well. Starting from1888, Hollerith conducted experiments and applied his Punched card system (or prototype tabulator) to agricultural censuses, railroad accounting, and life insurance statistics. Between 1895 and 1905, several new applications of the punched card system emerged. Hollerith developed several improvements to the original system. He designed the adding tabulator, introduced some automatic machines, dynamic card reading, and a more compact design. In 1911, Hollerith sold his company to the Computing-Tabulating-Recording Company (CTR), which in 1924 was renamed International Business Machines Corporation (IBM). (Heide, 1997)
 
-Hollerith, H. (1890) The Electric Tabulating Machine. U.S. Census Bureau Archives. 
-https://americanhistory.si.edu/collections/search/object/nmah_334663 
-IBM Archives (1935). IBM Punched Card Systems Advertising Material. 
-https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/ 
 
-## 1930s–1950s  
-Magnetic drum memory — first “reusable” electronic storage medium, precursor to magnetic disks. 
-Rotating metal cylinder coated with magnetic material; could be rewritten multiple times. 
-Used in early computers such as ERA 1103 and IBM 650. 
- 
-Papian, W.N. (1953). The MIT Magnetic-Core Memory. AIEE Transactions. 
-https://ieeexplore.ieee.org/document/4762558 
-IBM Technical Bulletin (1952). Electronic Speed with Mechanical Dependability. IBM Archives. https://www.ibm.com/ibm/history/exhibits/storage/storage_1207.html 
+## Magnetic drum memory (1930s–1950s) 
+Austrian engineer Gustav Tautenhain invented the magnetic drum as a data storage device. He developed the first prototype in 1932 and received a patent in 1934. Magnetic recording had an advantage in the field of digital data storage due to its simplicity and cost-effectiveness. Added information was simply written over the previously stored information. (Hoagland, 1954) Magnetic memory has taken an important place in data processing systems and has been used wherever a convenient, potentially large, relatively cheap, moderately fast permanent data storage device was needed. (Carne, 1961) In industry and laboratories, there was a growing demand for data storage devices with large capacities and relatively fast random access times. Magnetic drums provided this access. (Carne, 1961) IBM 650 Magnetic Drum Data-Processing Machine (1954) was equipped with a magnetic drum and became the most popular machine of the 1950s, with over 2,000 units sold.  A special programming language, "SOAP II" (Symbolic Optimal Assembly Program), was even written for this machine. (Martin, 1960)
 
-## 1950s–1970s Magnetic Revolution   
-## 1956  
-IBM 305 RAMAC —first commercial hard disk drive (HDD); 5 MB capacity, 50 spinning disks, size of a wardrobe.  
-Magnetic core memory (ferrite rings) — used in early mainframes; fast but expensive. 
-Magnetic tape drives — cheaper, high capacity, sequential access; widely used for backups.
-
-Marketed as “miracle memory”. 
- 
-IBM (1956). IBM 305 RAMAC Brochure. IBM Archives. 
-https://www.ibm.com/ibm/history/exhibits/storage/storage_350.html 
-Computer History Museum (2020). First Commercial Hard Disk Drive Shipped. 
- https://www.computerhistory.org/revolution/memory-storage/8/259 
+## IBM 305 RAMAC (1956)
+The IBM 350 disk drive was introduced in 1956 as part of the IBM 305 Ramac business computer. It offered storage capacities of five, 10, 15, or 20 million characters and was configured with 50 magnetic disks containing 50,000 sectors, each holding 100 alphanumeric characters. (Saran, 2006) “At the launch event on 14 September 1956, then IBM president Thomas J Watson Jr said, "Today is the greatest new product day in the history of IBM and, I believe, in the history of the office equipment industry. These products provide the most significant advancement toward business control and operation by electronics to be made thus far."” (Saran, 2006) The IBM 305 RAMAC—or simply RAMAC—was the first computer to use a random-access disk drive. It allowed data to be stored, accessed, modified, and deleted without manual intervention. These processes became faster and easier, and became available to any computer user. The RAMAC became the ancestor of all hard disk drives developed after it. Many new possibilities opened up in many areas that used computers and worked with data: from space flight and ATMs to search engines and e-commerce. (IBM, n.d.)
 
 ## 1970s–1980s Miniaturization & Personal Computing Era  
 Floppy disks (8", 5.25", 3.5") — portable, rewritable, symbolic early PCs. 
@@ -115,3 +94,6 @@ Nature Photonics (2023). Holographic Data Storage Advances.
 https://www.nature.com/articles/s41566-023-01234-5 
 
 Eco-friendly and recyclable materials — response to e-waste and energy use. 
+
+## References
+*IBM. (n.d.) RAMAC. Available at: https://www.ibm.com/history/ramac (Accessed: 16 November 2025).*
