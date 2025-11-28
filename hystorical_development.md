@@ -1,20 +1,20 @@
 # Historical Development
 ## Early data storage
 ### Punched card system (1890)
-Punch cards were developed by Herman Hollerith to process census data collected at the United States in 1880. There were 50 million tables, and it was huge amount of data to process at that time. (Heide, 1997)  Herman Hollerith was born in 1860 and grew up in New York City in the years just after the Civil War. He studied mechanical engineering at Columbia College. In 1887, Billings approached Hollerith with this problem. Hollerith suggested representing information about each person using punched holes in a card and developing a machine to count different combinations of data. (Heide, 1997)
-Of course, after the innovation was invented, it became clear that this technology could be useful in other industries as well. Starting from1888, Hollerith conducted experiments and applied his Punched card system (or prototype tabulator) to agricultural censuses, railroad accounting, and life insurance statistics. Between 1895 and 1905, several new applications of the punched card system emerged. Hollerith developed several improvements to the original system. He designed the adding tabulator, introduced some automatic machines, dynamic card reading, and a more compact design. In 1911, Hollerith sold his company to the Computing-Tabulating-Recording Company (CTR), which in 1924 was renamed International Business Machines Corporation (IBM). (Heide, 1997)
+Punch cards were developed by Herman Hollerith to process census data collected at the United States in 1880. There were 50 million tables, and it was huge amount of data to process at that time. Hollerith suggested representing information about each person using punched holes in a card and developing a machine to count different combinations of data. (Heide, 1997) This technology became useful in other industries as well. Starting from1888, Hollerith conducted experiments and applied his Punched card system (or prototype tabulator) to agricultural censuses, railroad accounting, and life insurance statistics. Hollerith designed the adding tabulator, introduced some automatic machines, dynamic card reading, and a more compact design. In 1911, Hollerith sold his company to the Computing-Tabulating-Recording Company (CTR), which in 1924 was renamed International Business Machines Corporation (IBM). (Heide, 1997)
 ## Magnetic Era
 ### Magnetic Tape (1928 - 1950s; UNIVAC)
 Fritz Pfleumer invented the magnetic tape in 1928 for recording adio, but first computer, which used it for data storage, UNIVAC I, was created just in 1951.  (Goda, 2012)  Magnetic tape was suitable for cold storage – long term data storage without fast access. The tapes had drawbacks: data access took weeks or months, and they were sensitive to maintaining conditions. But, still,  ring heads, magnetic tape with particulate magnetic materials, and AC biasing method, were the basic technologies of magnetic recording until beginning of 2000s. (Iwasaki, 2003) 
 
 ### Magnetic drum memory (1930s–1950s)
-Austrian engineer Gustav Tautenhain invented the magnetic drum as a data storage device. He developed the first prototype in 1932 and received a patent in 1934. Magnetic recording had an advantage in the field of digital data storage due to its simplicity and cost-effectiveness. Added information was simply written over the previously stored information. (Hoagland, 1954) Magnetic memory has taken an important place in data processing systems and has been used wherever a convenient, potentially large, relatively cheap, moderately fast permanent data storage device was needed. (Carne, 1961) In industry and laboratories, there was a growing demand for data storage devices with large capacities and relatively fast random access times. Magnetic drums provided this access. (Carne, 1961) IBM 650 Magnetic Drum Data-Processing Machine (1954) was equipped with a magnetic drum and became the most popular machine of the 1950s, with over 2,000 units sold.  A special programming language, "SOAP II" (Symbolic Optimal Assembly Program), was even written for this machine. (Martin, 1960)
+An Austrian engineer Gustav Tautenhain invented the magnetic drum as a data storage device. He developed the first prototype in 1932 and received a patent in 1934. Magnetic recording had an advantage in the field of digital data storage due to its simplicity and cost-effectiveness. Added information was simply written over the previously stored information. (Hoagland, 1954) Magnetic memory has taken an important place in data processing systems and has been used wherever a convenient, potentially large, relatively cheap and fast permanent data storage device was needed. In industry and laboratories, there was a growing demand for data storage devices with large capacities and relatively fast random access times. Magnetic drums provided this access. (Carne, 1961) 
+IBM 650 Magnetic Drum Data-Processing Machine (1954) was equipped with a magnetic drum and became the most popular machine of the 1950s, with over 2,000 units sold.  A special programming language, "SOAP II" (Symbolic Optimal Assembly Program), was even written for this machine. (Martin, 1960)
 
 ### Magnetic disk storage (1956 – 1980s)
 First, magnetic storage devices proved to be resilient to the ever-growing need for more storage space. However, as electronic technology progressed, the capacity of magnetic-based storage devices became greater and the actual magnetic memory became cheaper. Because of their resilience and price, magnetic devices are widely adopted for archival use. (Anžel, et al., 2021)  In 2021, Anzel wrote that HDDs are the most developed magnetic-based storage device. (Anžel, et al., 2021)
 
 #### IBM 305 RAMAC (1956)
-The IBM 350 disk drive was introduced in 1956 as part of the IBM 305 Ramac business computer. It offered big capacity for that time. “At the launch event on 14 September 1956, then IBM president Thomas J Watson Jr said, "Today is the greatest new product day in the history of IBM and, I believe, in the history of the office equipment industry. These products provide the most significant advancement toward business control and operation by electronics to be made thus far."” (Saran, 2006) The IBM 305 RAMAC—or simply RAMAC—was the first computer to use a random-access disk drive. It allowed data to be stored, accessed, modified, and deleted without manual intervention. These processes became faster and easier, and became available to any computer user. The RAMAC became the ancestor of all hard disk drives (HDD) developed after it. Many new possibilities opened up in many areas that used computers and worked with data: from space flight and ATMs to search engines and e-commerce. (IBM, n.d.)
+The IBM 350 disk drive was introduced in 1956 as part of the IBM 305 Ramac business computer. It offered big capacity for that time. “At the launch event on 14 September 1956, then IBM president Thomas J Watson Jr said, The IBM 305 RAMAC—or simply RAMAC—was the first computer to use a random-access disk drive. It allowed data to be stored, accessed, modified, and deleted without manual intervention. These processes became faster and easier, and became available to any computer user. The RAMAC became the ancestor of all hard disk drives (HDD) developed after it. (IBM, n.d.)
 
 #### IBM 1301
 The next generation of disk drive with higher capacity and faster access was needed soon again. Thanks to introduction of some new technologies were realized, such as: a flying head per surface, a hydraulic actuator, and a magnetic disk with a very hard surface film, it became possible to improve RAMAC. The leader of the research and IBM development team, Rey Johnson, was working on ADF (Advanced Disk File) project. (Hoagland, 2003) The commercial version of the ADF  which was called IBM 1301 later, became essential for use of American Airlines Sabre System, the first nationwide real time airline reservations system. (Hoagland, 2003)  “The IBM 1301 Disk Storage Unit, released in 1961, introduced a head arm assembly… contributing to faster seek time.” (Goda, 2012)  
@@ -90,7 +90,6 @@ Chen, P. P.-S., 1986. The compact disk ROM: How it works: An offshoot of the com
 Daintith, J. a. W., 2008. Winchester technology. A Dictionary of Computing, Volume 6.
 
 Foote, K. D., 2017. A Brief History of Data Storage. [Online] 
-
 Available at: https://www.dataversity.net/articles/brief-history-data-storage/#:~:text=In%20the%201960s%2C%20%E2%80%9Cmagnetic%20storage,made%20punch%20cards%20nearly%20obsolete.
 [Accessed 25 11 2025].
 
@@ -105,6 +104,10 @@ Heide, L., 1997. Shaping a technology: American punched card systems 1880-1914. 
 Hoagland, A., 2003. History of magnetic disk storage based on perpendicular magnetic recording. In: Joint NAPMRC 2003. Digest of Technical Papers. Monterey, CA, USA: IEEE, pp. 57-.
 
 Hoagland, A. S., 1954. Magnetic drum recording of digital data. Transactions of the American Institute of Electrical Engineers, Part I: Communication and Electronics, 73(4), pp. 381-385.
+
+IBM, n.d. RAMAC. [Online] 
+Available at: https://www.ibm.com/history/ramac
+[Accessed 2025].
 
 Iwasaki, S., 2003. Learning from historical view of the progress in magnetic recording. In: Joint NAPMRC 2003. Digest of Technical Papers. Monterey, CA, USA: IEEE, pp. 3-4.
 
@@ -145,6 +148,9 @@ Taylor, J., 1999. DVD-Video: multimedia for the masses. IEEE MultiMedia, 6(3), p
 Vandergrift, K., 1988. CD-ROMS (Book Review). School Library Journal, 34(8), p. 109.
 
 White, R. M., 1983. Computers: Magnetic disks: Storage densities on the rise: New materials and new techniques, such as vertical and magnetooptical recording, are driving down costs per stored bit. IEEE Spectrum, 20(8), pp. 32-38.*
+
+
+
 
 
 
