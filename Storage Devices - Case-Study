@@ -1,8 +1,11 @@
-
 # Case Study G33 – Evolution of Data Storage Devices
-##ARSENII PARIIENKO 
+
+##ARSENII PARIIENKO
+
 ##
+
 ##
+
 ##
 
 ## 1. Introduction
@@ -11,10 +14,10 @@ Over the last century, data storage has evolved from punched cards and magnetic 
 
 This report examines the evolution of storage devices from four complementary perspectives:
 
-* **Historical development** – how storage media and technologies emerged and changed over time.
-* **Business viewpoint** – how storage affected costs, scalability, operations, and competitive advantage.
-* **Engineering viewpoint** – how storage constraints shaped system architecture, scalability, and “technical debt”.
-* **Ethical reflection** – how material use, privacy, platform power, energy, and e-waste create ongoing responsibilities.
+- **Historical development** – how storage media and technologies emerged and changed over time.
+- **Business viewpoint** – how storage affected costs, scalability, operations, and competitive advantage.
+- **Engineering viewpoint** – how storage constraints shaped system architecture, scalability, and “technical debt”.
+- **Ethical reflection** – how material use, privacy, platform power, energy, and e-waste create ongoing responsibilities.
 
 The conclusion brings these strands together and shows how storage has moved from a background technical detail to a strategic and ethical concern at the centre of modern computing.
 
@@ -172,9 +175,9 @@ Novel and alternative media for data storage are now being researched. They incl
 
 Across sectors, three technical trends in storage have had the greatest business impact:
 
-* **Speed** – moving from cards and tape to HDDs and then to SSDs cut access times from minutes to milliseconds, making real-time services possible.
-* **Capacity and scalability** – falling cost per gigabyte enabled organisations to keep years of detailed data and attempt “big data” projects.
-* **Connectivity** – networked and cloud storage allowed shared access to the same data by many users and systems.
+- **Speed** – moving from cards and tape to HDDs and then to SSDs cut access times from minutes to milliseconds, making real-time services possible.
+- **Capacity and scalability** – falling cost per gigabyte enabled organisations to keep years of detailed data and attempt “big data” projects.
+- **Connectivity** – networked and cloud storage allowed shared access to the same data by many users and systems.
 
 These drivers changed how organisations plan investments, deliver services, and compete.
 
@@ -182,8 +185,8 @@ These drivers changed how organisations plan investments, deliver services, and 
 
 In the mainframe era, disk space was so expensive that only essential data was kept. Today, raw storage is relatively cheap, and data is treated as a strategic asset. This has encouraged:
 
-* Long-term retention of transactional, sensor, and interaction data.
-* Investment in analytics, machine learning, and reporting based on historic data.
+- Long-term retention of transactional, sensor, and interaction data.
+- Investment in analytics, machine learning, and reporting based on historic data.
 
 Cloud storage shifted expenditure from capital (buying hardware) to operating costs (monthly subscriptions). Smaller firms gained access to enterprise-grade reliability and backup without building their own data centres.
 
@@ -193,8 +196,8 @@ However, storage still has indirect costs: network bandwidth, backup and disaste
 
 Advances in storage enabled the shift from paper charts to electronic health records (EHRs). Hospitals now store years of lab results, prescriptions, notes, and images for each patient. This:
 
-* Improves continuity of care and information sharing.
-* Reduces duplicate tests and supports coordinated treatment.
+- Improves continuity of care and information sharing.
+- Reduces duplicate tests and supports coordinated treatment.
 
 Networked and cloud storage also support telemedicine and health information exchanges. At the same time, strict privacy and retention rules require investment in secure, redundant storage, backups, and audit trails. Storage is part of clinical risk management as well as IT.
 
@@ -202,9 +205,9 @@ Networked and cloud storage also support telemedicine and health information exc
 
 In retail, disk-based point-of-sale systems allowed every sale to be recorded in a central database. This made real-time stock control and sales analysis possible. As storage costs fell, retailers began to keep:
 
-* Long histories of transactions
-* Loyalty card data
-* Online browsing behaviour
+- Long histories of transactions
+- Loyalty card data
+- Online browsing behaviour
 
 These datasets support demand forecasting, pricing strategies, and personalised recommendations. Storage also underpins “omni-channel” retail where online and in-store operations share inventory and customer data.
 
@@ -212,9 +215,9 @@ These datasets support demand forecasting, pricing strategies, and personalised 
 
 Banks were early adopters of digital storage for account records and transaction ledgers. Faster and more reliable disks allowed:
 
-* Real-time account balances
-* ATM and card payment networks
-* Online banking services
+- Real-time account balances
+- ATM and card payment networks
+- Online banking services
 
 In capital markets, storage and networks make it possible to record and analyse every price tick and trade. Regulators and central banks also rely on large datasets for monitoring and research.
 
@@ -226,78 +229,54 @@ For organisations, storage evolution has moved information handling from manual,
 
 ---
 
-## 4. Engineering Viewpoint: Architectural Analysis of Storage Evolution
+## 4. Engineering Viewpoint: An Architectural Analysis of Storage Evolution
 
 ### 4.1 Framing: Architecture, Scalability, Technical Debt
 
-From an engineering perspective, the evolution of storage is a sequence of responses to physical limits, each with its own trade-offs:
+From an engineering perspective, the evolution of storage is a sequence of responses to physical limits, each with its own trade-offs. This analysis examines the progression through three core lenses:
+System Architecture – how the physical constraints of a storage medium dictate data processing models and system design.
+Scalability – how well a solution handles growth in data volume, user load, and performance demands, and what physical or logical barriers limit that growth.
+Technical Debt – how short-term design choices, often made for cost or simplicity, create fundamental constraints that must be repaid with significant future engineering effort.
+Storage is not a mere peripheral but a core architectural element that influences networks, databases, and applications.
 
-* **System architecture** – how storage constraints shape processing models and software design.
-* **Scalability** – how well solutions handle growth in data, users, and workloads.
-* **Technical debt** – how “cheap and easy now” choices create hidden constraints that must be repaid later.
+### 4.2 The Mechanical Era: Physical Debt of Punched Cards
 
-Storage is not just a peripheral but a core architectural element that influences networks, databases, and applications.
+Punched cards enabled the first automated data processing but imposed a rigid, batch-oriented architecture dictated by the physical medium itself.
+System Architecture: The system was defined by its irreversible, mechanical write process (perforation) and a destructive, contact-based read mechanism. This forced a batch-processing model where data was prepared offline and processed sequentially.
+Material & Scalability Constraints: The use of paper introduced significant limitations. Areal density was extremely low, constrained by the material's tensile strength. Throughput was limited by the mechanical feed rates and the actuation speed of electromechanical relays.
+Technical Debt: The debt was physical and absolute. Cards were disposable, errors required manual re-punching, and data integrity was directly coupled to the physical integrity of the medium. This created a clear engineering mandate for a reversible physical medium with higher density and contactless reading.
 
-### 4.2 Mechanical Era: Physical Debt of Punched Cards
+### 4.3 The Electromechanical Era: Sequential Debt of Magnetic Tape
 
-Punched cards enabled automated census and payroll processing but imposed a batch-oriented architecture:
+Magnetic tape exploited ferromagnetism to permit rewriting and contactless reading, dramatically increasing throughput. However, it introduced a new, defining limitation.
+System Architecture: The one-dimensional geometry of tape enforced a strictly sequential access model. Reading record N required skipping N-1 records first. This architecture was efficient for batch jobs and backups but completely unsuitable for interactive, low-latency applications.
+Scalability: Capacity scaled easily by adding more reels, but access times scaled poorly, growing linearly with the amount of data. Large tape libraries were a mechanical workaround for a fundamental architectural flaw.
+Technical Debt: Tape solved the problem of mechanical wear but created a profound "sequential debt." The entire industry was constrained by processor time wasted waiting for tapes to rewind. Physical issues like tape stretching and "shoe-shining" wear also introduced data integrity problems.
 
-* **Material constraints** – paper was cheap but fragile and sensitive to humidity; precise mechanics were required for punching and reading.
-* **Scalability limits** – areal density was very low; throughput was limited by mechanical card feeds and relays.
-* **Technical debt** – cards were disposable, errors required re-punching, and restoring order after a disruption was labour-intensive.
+### 4.4 The Random Access Revolution: Mechanical Limits of HDDs
 
-This created a requirement for a reversible physical medium with higher density and contactless reading.
+Hard disk drives solved the sequential access problem by moving to a two-dimensional geometry with spinning platters and moving heads.
+System Architecture: The shift to a 2D topology enabled random access. For the first time, data blocks had physical addresses (cylinder, head, sector), and access time became a predictable sum of seek, rotational latency, and transfer time. This architectural breakthrough enabled modern operating systems and databases.
+Scalability: Capacity scaled through increases in areal density and the addition of more platters. However, performance scaling was limited by the physics of the mechanical components.
+Technical Debt: A new debt emerged, rooted in mechanical latency. As CPUs and RAM improved exponentially (Moore's Law), the comparatively slow mechanical improvements of HDDs created a massive I/O bottleneck. Furthermore, the reliance on moving parts introduced reliability issues, necessitating complex redundancy schemes like RAID.
 
-### 4.3 Electromechanical Era: Sequential Debt of Magnetic Tape
+### 4.5 The Solid-State Era: Firmware and Endurance Constraints
 
-Magnetic tape exploited ferromagnetism to permit rewriting and contactless reading, increasing throughput. But it brought a different limitation:
+SSDs removed mechanical parts and dramatically reduced access times by transitioning to a purely electronic, semiconductor-based paradigm using NAND flash memory.
+System Architecture: The architecture is defined by massive parallelism, managed by a sophisticated onboard controller. The controller abstracts the physical details of the flash memory through a Flash Translation Layer (FTL).
+Advantages: Near-zero seek and rotational delays; extremely high Input/Output Operations Per Second (IOPS); and improved shock resistance.
+Technical Debt: The mechanical debt was replaced by a new, more subtle "firmware and endurance debt." Flash cells have limited program/erase cycles, requiring complex wear-leveling and garbage collection algorithms managed by the controller. These processes can introduce write amplification and unpredictable latency variability. The dependency on this opaque controller firmware creates a new layer of complexity and potential for unexpected behavior.
 
-* **Sequential architecture** – tape geometry enforced one-dimensional access; reading record N required skipping N−1 records first.
-* **Scalability** – capacity scaled by adding reels but access times grew; libraries of tapes were suitable for batch jobs and backups, not low-latency applications.
-* **Physical issues** – tape stretching and “shoe-shining” wear introduced integrity problems.
+### 4.6 The Distributed Era: Distributed Systems Debt
 
-Tape solved mechanical wear but created “sequential debt”: good for throughput, poor for random access.
-
-### 4.4 Random Access Revolution: Mechanical Limits of HDDs
-
-Hard disks moved to two-dimensional geometry with spinning platters and moving heads:
-
-* **Random access** – data blocks had physical addresses; access time consisted of seek, rotational latency, and transfer time. This enabled modern operating systems and databases.
-* **Scalability** – capacity increased via higher density and more platters.
-
-New problems appeared:
-
-* **I/O bottleneck** – CPUs and RAM improved much faster than disk latency; storage became a common performance bottleneck.
-* **Reliability** – moving parts wore out, leading to failures and the need for redundancy (RAID, mirroring).
-* **Tuning debt** – filesystems and databases were heavily optimised for specific disk characteristics, making later migrations and redesigns costly.
-
-### 4.5 Solid-State and Flash: Firmware and Endurance Constraints
-
-SSDs removed mechanical parts and dramatically reduced access times:
-
-* **Advantages** – near-zero seek and rotational delays; high IOPS; improved shock resistance.
-* **New constraints** – flash cells have limited program/erase cycles; controllers must manage wear-levelling, garbage collection, and error correction.
-
-The flash translation layer hides physical details but:
-
-* Introduces write amplification and latency variability.
-* Creates dependency on opaque controller firmware, a form of “firmware debt” that can cause unexpected behaviour.
-
-### 4.6 Distributed and Cloud Storage: Distributed Systems Debt
-
-Cloud and distributed filesystems treat storage as a networked service:
-
-* **Architecture** – data is chunked and spread across multiple nodes; systems manage metadata, replication, consistency, and failure.
-* **Scalability** – horizontal scaling is possible, but new limits appear in metadata management and network bandwidth.
-* **Design trade-offs** – choices about consistency models, replication factors, and sharding strategies become long-term constraints; changing them later is difficult and risky.
-
-This creates “distributed systems debt”: architectures built for small clusters are often stretched beyond their original design.
+Cloud and distributed filesystems treat storage as an abstracted, networked service, solving the problem of single-device capacity limits.
+System Architecture: Data is chunked, replicated, and spread across multiple nodes. The system must manage metadata, consistency, replication, and failure detection, transforming the storage problem into a distributed systems problem.
+Scalability: Horizontal scaling by adding more nodes is possible, but new limits appear in network bandwidth and the performance of the metadata management layer.
+Technical Debt: This paradigm creates "distributed systems debt." Early architectural choices about consistency models (e.g., eventual vs. strong), replication factors, and sharding strategies become deeply embedded. Changing these decisions later to accommodate unforeseen growth is extraordinarily difficult and risky.
 
 ### 4.7 Engineering Summary
 
-From punched cards to cloud, engineering choices around storage have repeatedly traded one set of constraints for another. Mechanical fragility was replaced by sequential access limits, then by random-access mechanical latency, and finally by flash endurance and distributed coordination issues. The pattern is clear: storage decisions are architectural decisions, and short-term optimisations frequently turn into technical debt.
-
----
+# From punched cards to the cloud, engineering choices around storage have repeatedly traded one set of constraints for another. Mechanical fragility was replaced by sequential access limits, then by random-access mechanical latency, and finally by flash endurance and distributed coordination issues. The pattern is clear: storage decisions are fundamental architectural decisions, and short-term optimizations frequently accumulate into long-term technical debt that the next generation of engineers must repay
 
 ## 5. Ethical Reflection and Improvements on Storage Devices
 
@@ -307,10 +286,10 @@ Storage devices underpin almost every digital activity. They hold personal memor
 
 Ethical questions arise at every stage:
 
-* What do we collect and keep, and for how long?
-* Who controls the device and the data?
-* How much energy and material are used to store data we rarely access?
-* How do we protect privacy when devices are reused or discarded?
+- What do we collect and keep, and for how long?
+- Who controls the device and the data?
+- How much energy and material are used to store data we rarely access?
+- How do we protect privacy when devices are reused or discarded?
 
 This section considers storage across its lifecycle: material sourcing, manufacturing and design, privacy and security, cloud platforms, energy and carbon, e-waste, inequality, legal obligations, edge/IoT, and emerging technologies. It then outlines responsibilities for different stakeholders.
 
@@ -318,9 +297,9 @@ This section considers storage across its lifecycle: material sourcing, manufact
 
 HDDs, SSDs, and other devices rely on metals, semiconductors, and sometimes rare earth elements. Risks include:
 
-* Environmental damage and unsafe labour conditions in mining.
-* Opaque global supply chains that hide poor practices.
-* Competition for scarce materials that can widen digital inequality.
+- Environmental damage and unsafe labour conditions in mining.
+- Opaque global supply chains that hide poor practices.
+- Competition for scarce materials that can widen digital inequality.
 
 Ethically, vendors should perform and publish due diligence, provide clear sourcing information, and allow independent scrutiny.
 
@@ -328,9 +307,9 @@ Ethically, vendors should perform and publish due diligence, provide clear sourc
 
 Design choices influence repairability and lifetime:
 
-* Soldered storage and proprietary connectors make upgrades and repair difficult.
-* Software bloat and small capacities make devices “full” long before hardware fails.
-* Lack of documentation and tools prevents users from maintaining devices.
+- Soldered storage and proprietary connectors make upgrades and repair difficult.
+- Software bloat and small capacities make devices “full” long before hardware fails.
+- Lack of documentation and tools prevents users from maintaining devices.
 
 Responsible design favours standard form factors, replaceable modules, honest endurance ratings, and accessible firmware tools, including secure erase.
 
@@ -338,22 +317,22 @@ Responsible design favours standard form factors, replaceable modules, honest en
 
 Storage is where privacy often fails:
 
-* Lost or discarded devices can leak data if encryption is off or deletion is incomplete.
-* Backups multiply sensitive data, creating more attack targets.
+- Lost or discarded devices can leak data if encryption is off or deletion is incomplete.
+- Backups multiply sensitive data, creating more attack targets.
 
 Ethical practice requires:
 
-* Encryption at rest enabled by default.
-* Data minimisation and defined retention periods.
-* Realistic, verifiable deletion that propagates to replicas and backups.
+- Encryption at rest enabled by default.
+- Data minimisation and defined retention periods.
+- Realistic, verifiable deletion that propagates to replicas and backups.
 
 ### 5.5 Cloud Storage and Platform Power
 
 Cloud storage centralises control with providers:
 
-* High egress fees and awkward export tools can lock users in.
-* Interfaces often push upgrades over cleanup and pruning.
-* Data location affects which legal regimes apply.
+- High egress fees and awkward export tools can lock users in.
+- Interfaces often push upgrades over cleanup and pruning.
+- Data location affects which legal regimes apply.
 
 Ethical cloud services should support straightforward export, transparent pricing, clear region choices, and deletion that genuinely removes data within stated timeframes.
 
@@ -361,34 +340,34 @@ Ethical cloud services should support straightforward export, transparent pricin
 
 Storage consumes energy both during manufacture and operation:
 
-* Replication, “hot” storage tiers, and over-provisioning increase energy use.
-* Replacing hardware too early can increase total emissions compared with extending device life.
-* At end of life, storage devices are both e-waste and potential privacy risks.
+- Replication, “hot” storage tiers, and over-provisioning increase energy use.
+- Replacing hardware too early can increase total emissions compared with extending device life.
+- At end of life, storage devices are both e-waste and potential privacy risks.
 
 Ethical responses include:
 
-* Transparent reporting of energy use and carbon for storage tiers.
-* Tiering strategies that align performance with real access needs.
-* Secure erase plus recycling pathways that protect workers and recover materials.
+- Transparent reporting of energy use and carbon for storage tiers.
+- Tiering strategies that align performance with real access needs.
+- Secure erase plus recycling pathways that protect workers and recover materials.
 
 ### 5.7 Inequality, Law, Edge/IoT, and Emerging Technologies
 
 Further issues include:
 
-* **Inequality** – low-end devices with tiny storage and limited connectivity can block full participation in education and work.
-* **Legal and compliance** – laws define retention, evidence handling, and cross-border data flows; ethical practice means using these rules to limit hoarding, not justify it.
-* **Edge and IoT** – home cameras, wearables, and vehicles collect intimate data; devices should favour short retention, local processing, and clear user controls.
-* **Emerging media** – DNA storage and other long-lived media raise questions about deletion, environmental impact, and equitable access.
+- **Inequality** – low-end devices with tiny storage and limited connectivity can block full participation in education and work.
+- **Legal and compliance** – laws define retention, evidence handling, and cross-border data flows; ethical practice means using these rules to limit hoarding, not justify it.
+- **Edge and IoT** – home cameras, wearables, and vehicles collect intimate data; devices should favour short retention, local processing, and clear user controls.
+- **Emerging media** – DNA storage and other long-lived media raise questions about deletion, environmental impact, and equitable access.
 
 ### 5.8 Stakeholders and Practical Improvements
 
 No single actor can solve storage ethics. Responsibilities include:
 
-* **Manufacturers** – design for repair, publish endurance data, support secure erase, provide take-back schemes, and use recycled materials where possible.
-* **Cloud providers** – offer lifecycle tooling, retention controls, fair portability, and deletion verification.
-* **Enterprises and institutions** – minimise data collection, encrypt by default, define and automate retention, and vet disposal vendors.
-* **Consumers** – enable encryption, prune data, use responsible disposal channels, and prefer repairable devices.
-* **Policymakers** – enforce right-to-repair, support e-waste infrastructure, define secure erase standards, and require supply chain reporting.
+- **Manufacturers** – design for repair, publish endurance data, support secure erase, provide take-back schemes, and use recycled materials where possible.
+- **Cloud providers** – offer lifecycle tooling, retention controls, fair portability, and deletion verification.
+- **Enterprises and institutions** – minimise data collection, encrypt by default, define and automate retention, and vet disposal vendors.
+- **Consumers** – enable encryption, prune data, use responsible disposal channels, and prefer repairable devices.
+- **Policymakers** – enforce right-to-repair, support e-waste infrastructure, define secure erase standards, and require supply chain reporting.
 
 The emphasis is on realistic changes that can be implemented now rather than waiting for ideal conditions.
 
@@ -410,80 +389,80 @@ The overall lesson is that storage must be treated as a socio-technical system. 
 
 ## 7. References
 
-Anžel, A., Heider, D. & Hattab, G., 2021. The visual story of data storage: From storage properties to user interfaces. *Computational and Structural Biotechnology Journal*, 19, pp. 4904–4918.
+Anžel, A., Heider, D. & Hattab, G., 2021. The visual story of data storage: From storage properties to user interfaces. _Computational and Structural Biotechnology Journal_, 19, pp. 4904–4918.
 
 BBC, 2016. The long legacy of the floppy disk. [Online]
 Available at: [https://www.bbc.com/news/technology-36389711](https://www.bbc.com/news/technology-36389711)
 [Accessed 26 11 2025].
 
-Bell, A., 1999. The dynamic digital disk. *IEEE Spectrum*, 36(10), pp. 28–35.
+Bell, A., 1999. The dynamic digital disk. _IEEE Spectrum_, 36(10), pp. 28–35.
 
-Bell, A. E., 1996. Next-Generation Compact Discs. *Scientific American*, 275(1), pp. 42–46.
+Bell, A. E., 1996. Next-Generation Compact Discs. _Scientific American_, 275(1), pp. 42–46.
 
 Carne, E. B., 1961. Transactions of the American Institute of Electrical Engineers, Part I: Communication and Electronics, 79(6), pp. 749–756.
 
-Chen, P. P.-S., 1986. The compact disk ROM: How it works. *IEEE Spectrum*, 23(4), pp. 43–49.
+Chen, P. P.-S., 1986. The compact disk ROM: How it works. _IEEE Spectrum_, 23(4), pp. 43–49.
 
-Daintith, J., 2008. Winchester technology. *A Dictionary of Computing*, 6th edn.
+Daintith, J., 2008. Winchester technology. _A Dictionary of Computing_, 6th edn.
 
 Foote, K. D., 2017. A Brief History of Data Storage. [Online]
 Available at: [https://www.dataversity.net/articles/brief-history-data-storage/](https://www.dataversity.net/articles/brief-history-data-storage/)
 [Accessed 25 11 2025].
 
-Goda, K. & Kitsuregawa, M., 2012. The History of Storage Systems. *Proceedings of the IEEE*, 100(Special Centennial Issue), pp. 1433–1440.
+Goda, K. & Kitsuregawa, M., 2012. The History of Storage Systems. _Proceedings of the IEEE_, 100(Special Centennial Issue), pp. 1433–1440.
 
 Goldstein, P., 2017. What is a Flash Drive: Your Answer for Simple File Transferring. [Online]
 Available at: [https://biztechmagazine.com/article/2017/06/usb-flash-drive-made-file-transfers-simple-and-easy](https://biztechmagazine.com/article/2017/06/usb-flash-drive-made-file-transfers-simple-and-easy)
 [Accessed 26 11 2025].
 
-Heide, L., 1997. Shaping a technology: American punched card systems 1880–1914. *IEEE Annals of the History of Computing*, 19(4), pp. 28–41.
+Heide, L., 1997. Shaping a technology: American punched card systems 1880–1914. _IEEE Annals of the History of Computing_, 19(4), pp. 28–41.
 
-Hoagland, A. S., 1954. Magnetic drum recording of digital data. *Transactions of the American Institute of Electrical Engineers, Part I: Communication and Electronics*, 73(4), pp. 381–385.
+Hoagland, A. S., 1954. Magnetic drum recording of digital data. _Transactions of the American Institute of Electrical Engineers, Part I: Communication and Electronics_, 73(4), pp. 381–385.
 
-Hoagland, A., 2003. History of magnetic disk storage based on perpendicular magnetic recording. In: *Joint NAPMRC 2003. Digest of Technical Papers*. Monterey, CA: IEEE, pp. 57–.
+Hoagland, A., 2003. History of magnetic disk storage based on perpendicular magnetic recording. In: _Joint NAPMRC 2003. Digest of Technical Papers_. Monterey, CA: IEEE, pp. 57–.
 
 IBM, n.d. IBM 305 RAMAC. IBM Archives.
 
-Iwasaki, S., 2003. Learning from historical view of the progress in magnetic recording. In: *Joint NAPMRC 2003. Digest of Technical Papers*. Monterey, CA: IEEE, pp. 3–4.
+Iwasaki, S., 2003. Learning from historical view of the progress in magnetic recording. In: _Joint NAPMRC 2003. Digest of Technical Papers_. Monterey, CA: IEEE, pp. 3–4.
 
-Kumagai, O. et al., 2013. Application of Laser Diodes to Optical Disk Systems. *Proceedings of the IEEE*, 101(10), pp. 2243–2254.
+Kumagai, O. et al., 2013. Application of Laser Diodes to Optical Disk Systems. _Proceedings of the IEEE_, 101(10), pp. 2243–2254.
 
-Lou, D. et al., 1977. A prototype optical disk recorder. *IEEE Journal of Quantum Electronics*, 13(9), pp. 827–.
+Lou, D. et al., 1977. A prototype optical disk recorder. _IEEE Journal of Quantum Electronics_, 13(9), pp. 827–.
 
 Malloy, J. T., 2023. Floppy Disks Are Developed for Computer Data Storage. [Online]
 Available at: [https://www.ebsco.com/research-starters/computer-science/floppy-disks-are-developed-computer-data-storage](https://www.ebsco.com/research-starters/computer-science/floppy-disks-are-developed-computer-data-storage)
 [Accessed 26 11 2025].
 
-Martin, E. W. & Haines, D. J., 1960. Data Processing: Automation in Calculation. *Review of Educational Research*, 30(5), pp. 522–535.
+Martin, E. W. & Haines, D. J., 1960. Data Processing: Automation in Calculation. _Review of Educational Research_, 30(5), pp. 522–535.
 
-Matarazzo, J., 2001. CD-R and CD-RW. *TechPort*, Spring(10), pp. 1–5.
+Matarazzo, J., 2001. CD-R and CD-RW. _TechPort_, Spring(10), pp. 1–5.
 
-Meiklejohn, W., 1986. Magnetooptics: A thermomagnetic recording technology. *Proceedings of the IEEE*, 74(11), pp. 1570–1581.
+Meiklejohn, W., 1986. Magnetooptics: A thermomagnetic recording technology. _Proceedings of the IEEE_, 74(11), pp. 1570–1581.
 
-Mennie, D., 1979. Consumer electronics: Personal and plentiful. *IEEE Spectrum*, 16(1), pp. 62–66.
+Mennie, D., 1979. Consumer electronics: Personal and plentiful. _IEEE Spectrum_, 16(1), pp. 62–66.
 
-Nicholls, P., 1996. Digital versatile disc: The holy grail?. *Computers in Libraries*, 16(5), p. 61.
+Nicholls, P., 1996. Digital versatile disc: The holy grail?. _Computers in Libraries_, 16(5), p. 61.
 
 Nyce, P. G., 2023. Introduction of Optical Discs for Data Storage. [Online]
 Available at: [https://www.ebsco.com/research-starters/computer-science/introduction-optical-discs-data-storage](https://www.ebsco.com/research-starters/computer-science/introduction-optical-discs-data-storage)
 [Accessed 27 11 2025].
 
-Paris, J., 1983. Basics of Videodisc and Optical Disk Technology. *Journal of the American Society for Information Science*, 34(6), p. 408.
+Paris, J., 1983. Basics of Videodisc and Optical Disk Technology. _Journal of the American Society for Information Science_, 34(6), p. 408.
 
-Parker, D. J., 1996. DVD: The update. *CD-ROM Professional*, 9(8), p. 68.
+Parker, D. J., 1996. DVD: The update. _CD-ROM Professional_, 9(8), p. 68.
 
-Saitoh, T. et al., 1982. A 3-Inch Compact Floppy Disk System. *IEEE Transactions on Consumer Electronics*, CE-28(3), pp. 210–213.
+Saitoh, T. et al., 1982. A 3-Inch Compact Floppy Disk System. _IEEE Transactions on Consumer Electronics_, CE-28(3), pp. 210–213.
 
-Saran, C., 2006. Hard disc reaches 50th anniversary. *Computer Weekly*, 9 December, p. 34.
+Saran, C., 2006. Hard disc reaches 50th anniversary. _Computer Weekly_, 9 December, p. 34.
 
-Schipma, P. B. & Lyman, F., 1988. CD-ROM for Information Storage and Retrieval: Introduction and Overview. *Journal of the American Society for Information Science*, 39(1), p. 30.
+Schipma, P. B. & Lyman, F., 1988. CD-ROM for Information Storage and Retrieval: Introduction and Overview. _Journal of the American Society for Information Science_, 39(1), p. 30.
 
 StorageNewsletter, 2018. History (1991): 3.5-Inch Magneto-Optical Disc. [Online]
 Available at: [https://www.storagenewsletter.com/2018/11/14/history-1991-3-5-inch-magneto-optical-disc/](https://www.storagenewsletter.com/2018/11/14/history-1991-3-5-inch-magneto-optical-disc/)
 [Accessed 27 11 2025].
 
-Taylor, J., 1999. DVD-Video: multimedia for the masses. *IEEE MultiMedia*, 6(3), pp. 86–92.
+Taylor, J., 1999. DVD-Video: multimedia for the masses. _IEEE MultiMedia_, 6(3), pp. 86–92.
 
-Vandergrift, K., 1988. CD-ROMs (Book Review). *School Library Journal*, 34(8), p. 109.
+Vandergrift, K., 1988. CD-ROMs (Book Review). _School Library Journal_, 34(8), p. 109.
 
-White, R. M., 1983. Magnetic disks: Storage densities on the rise. *IEEE Spectrum*, 20(8), pp. 32–38.
+White, R. M., 1983. Magnetic disks: Storage densities on the rise. _IEEE Spectrum_, 20(8), pp. 32–38.
