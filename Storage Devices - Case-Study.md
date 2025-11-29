@@ -13,11 +13,10 @@
 Over the last century, data storage has evolved from punched cards and magnetic tape to hard disk drives (HDDs), solid-state drives (SSDs), and cloud platforms. Each technological transition has reshaped how organisations collect, store, and use information, and each generation has introduced new constraints and trade-offs.
 
 This report examines the evolution of storage devices from four complementary perspectives:
-
-- **Historical development** – how storage media and technologies emerged and changed over time.
-- **Business viewpoint** – how storage affected costs, scalability, operations, and competitive advantage.
-- **Engineering viewpoint** – how storage constraints shaped system architecture, scalability, and “technical debt”.
-- **Ethical reflection** – how material use, privacy, platform power, energy, and e-waste create ongoing responsibilities.
+**Historical development** – how storage media and technologies emerged and changed over time.
+**Business viewpoint** – how storage affected costs, scalability, operations, and competitive advantage.
+**Engineering viewpoint** – how storage constraints shaped system architecture, scalability, and “technical debt”.
+**Ethical reflection** – how material use, privacy, platform power, energy, and e-waste create ongoing responsibilities.
 
 The conclusion brings these strands together and shows how storage has moved from a background technical detail to a strategic and ethical concern at the centre of modern computing.
 
