@@ -225,7 +225,7 @@ Technical Debt: This paradigm creates "distributed systems debt." Early architec
 
 ### 4.7 Engineering Summary
 
-# From punched cards to the cloud, engineering choices around storage have repeatedly traded one set of constraints for another. Mechanical fragility was replaced by sequential access limits, then by random-access mechanical latency, and finally by flash endurance and distributed coordination issues. The pattern is clear: storage decisions are fundamental architectural decisions, and short-term optimizations frequently accumulate into long-term technical debt that the next generation of engineers must repay
+From punched cards to the cloud, engineering choices around storage have repeatedly traded one set of constraints for another. Mechanical fragility was replaced by sequential access limits, then by random-access mechanical latency, and finally by flash endurance and distributed coordination issues. The pattern is clear: storage decisions are fundamental architectural decisions, and short-term optimizations frequently accumulate into long-term technical debt that the next generation of engineers must repay
 
 ## 5. Ethical Reflection and Improvements on Storage Devices
 
