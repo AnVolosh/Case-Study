@@ -31,199 +31,98 @@ The conclusion brings these strands together and shows how storage has moved fro
 
 #### Punched Card System (1890)
 
-Punch cards were developed by Herman Hollerith to process census data collected at the United 
-States in 1880. There were 50 million tables, and it was huge amount of data to process at 
-that time. Hollerith suggested representing information about each person using punched 
-holes in a card and developing a machine to count different combinations of data. (Heide, 1997) 
-This technology became useful in other industries as well. Starting from 1888, Hollerith         
-conducted experiments and applied his Punched card system (or prototype tabulator) to        
-agricultural censuses, railroad accounting, and life insurance statistics. Hollerith designed 
-the adding tabulator, introduced some automatic machines, dynamic card reading, and a more 
-compact design. In 1911, Hollerith sold his company to the Computing-Tabulating-Recording 
-Company (CTR), which in 1924 was renamed International Business Machines Corporation (IBM). (Heide, 1997)
+Punch cards were developed by Herman Hollerith to process census data collected at the United States in 1880. There were 50 million tables, and it was huge amount of data to process at that time. Hollerith suggested representing information about each person using punched holes in a card and developing a machine to count different combinations of data. (Heide, 1997) This technology became useful in other industries as well. Starting from 1888, Hollerith conducted experiments and applied his Punched card system (or prototype tabulator) to agricultural censuses, railroad accounting, and life insurance statistics. Hollerith designed the adding tabulator, introduced some automatic machines, dynamic card reading, and a more compact design. In 1911, Hollerith sold his company to the Computing-Tabulating-Recording Company (CTR), which in 1924 was renamed International Business Machines Corporation (IBM). (Heide, 1997)
 
 ### 2.2 Magnetic Era
 
 #### Magnetic Tape (1928–1950s; UNIVAC)
 
-Fritz Pfleumer invented the magnetic tape in 1928 for recording adio, but first computer, 
-which used it for data storage, UNIVAC I, was created just in 1951.  (Goda, 2012)  
-Magnetic tape was suitable for cold storage – long term data storage without fast access. 
-The tapes had drawbacks: data access took weeks or months, and they were sensitive to 
-maintaining conditions. But, still,  ring heads, magnetic tape with particulate magnetic
-materials, and AC biasing method, were the basic technologies of magnetic recording until 
-beginning of 2000s. (Iwasaki, 2003) 
+Fritz Pfleumer invented the magnetic tape in 1928 for recording adio, but first computer, which used it for data storage, UNIVAC I, was created just in 1951.  (Goda, 2012) Magnetic tape was suitable for cold storage – long term data storage without fast access. The tapes had drawbacks: data access took weeks or months, and they were sensitive to maintaining conditions. But, still,  ring heads, magnetic tape with particulate magnetic materials, and AC biasing method, were the basic technologies of magnetic recording until beginning of 2000s. (Iwasaki, 2003) 
 
 #### Magnetic Drum Memory (1930s–1950s)
 
-An Austrian engineer Gustav Tautenhain invented the magnetic drum as a data storage device. 
-He developed the first prototype in 1932 and received a patent in 1934. Magnetic recording 
-had an advantage in the field of digital data storage due to its simplicity and 
-cost-effectiveness. Added information was simply written over the previously stored 
-information. (Hoagland, 1954) Magnetic memory has taken an important place in data processing 
-systems and has been used wherever a convenient, potentially large, relatively cheap and fast 
-permanent data storage device was needed. In industry and laboratories, there was a growing 
-demand for data storage devices with large capacities and relatively fast random access times. 
-Magnetic drums provided this access. (Carne, 1961) IBM 650 Magnetic Drum Data-Processing Machine (1954) was equipped with a magnetic drum and became the most popular machine of the 1950s, with over 2,000 units sold.  A special programming language, "SOAP II" (Symbolic Optimal Assembly Program), was even written for this machine. (Martin, 1960)
+An Austrian engineer Gustav Tautenhain invented the magnetic drum as a data storage device. He developed the first prototype in 1932 and received a patent in 1934. Magnetic recording had an advantage in the field of digital data storage due to its simplicity and cost-effectiveness. Added information was simply written over the previously stored information. (Hoagland, 1954) Magnetic memory has taken an important place in data processing systems and has been used wherever a convenient, potentially large, relatively cheap and fast permanent data storage device was needed. In industry and laboratories, there was a growing 
+demand for data storage devices with large capacities and relatively fast random access times. Magnetic drums provided this access. (Carne, 1961) IBM 650 Magnetic Drum Data-Processing Machine (1954) was equipped with a magnetic drum and became the most popular machine of the 1950s, with over 2,000 units sold.  A special programming language, "SOAP II" (Symbolic Optimal Assembly Program), was even written for this machine. (Martin, 1960)
 
 
 #### Magnetic Disk Storage (1956–1980s)
 
-First, magnetic storage devices proved to be resilient to the ever-growing need for more 
-storage space. However, as electronic technology progressed, the capacity of 
-magnetic-based storage devices became greater and the actual magnetic memory became cheaper. 
-Because of their resilience and price, magnetic devices are widely adopted for archival use. 
-(Anžel, et al., 2021)  In 2021, Anzel wrote that HDDs are the most developed magnetic-based 
-storage device. (Anžel, et al., 2021)
+First, magnetic storage devices proved to be resilient to the ever-growing need for more storage space. However, as electronic technology progressed, the capacity of magnetic-based storage devices became greater and the actual magnetic memory became cheaper. Because of their resilience and price, magnetic devices are widely adopted for archival use. (Anžel, et al., 2021)  In 2021, Anzel wrote that HDDs are the most developed magnetic-based storage device. (Anžel, et al., 2021)
 
 ##### IBM 305 RAMAC (1956)
 
-The IBM 350 disk drive was introduced in 1956 as part of the IBM 305 Ramac business computer. 
-It offered big capacity for that time. “At the launch event on 14 September 1956, then IBM 
-president Thomas J Watson Jr said, The IBM 305 RAMAC—or simply RAMAC—was the first computer 
-to use a random-access disk drive. It allowed data to be stored, accessed, modified, and 
-deleted without manual intervention. These processes became faster and easier, and became 
-available to any computer user. The RAMAC became the ancestor of all hard disk drives (HDD) 
-developed after it. (IBM, n.d.)
+The IBM 350 disk drive was introduced in 1956 as part of the IBM 305 Ramac business computer. It offered big capacity for that time. “At the launch event on 14 September 1956, then IBM president Thomas J Watson Jr said, The IBM 305 RAMAC—or simply RAMAC—was the first computer to use a random-access disk drive. It allowed data to be stored, accessed, modified, and deleted without manual intervention. These processes became faster and easier, and became available to any computer user. The RAMAC became the ancestor of all hard disk drives (HDD) developed after it. (IBM, n.d.)
 
 ##### IBM 1301
 
-The next generation of disk drive with higher capacity and faster access was needed soon again. 
-Thanks to introduction of some new technologies were realized, such as: a flying head per 
-surface, a hydraulic actuator, and a magnetic disk with a very hard surface film, it became 
-possible to improve RAMAC. The leader of the research and IBM development team, Rey Johnson, 
-was working on ADF (Advanced Disk File) project. (Hoagland, 2003) The commercial version of 
-the ADF  which was called IBM 1301 later, became essential for use of American Airlines Sabre 
-System, the first nationwide real time airline reservations system. (Hoagland, 2003)  “The IBM 
-1301 Disk Storage Unit, released in 1961, introduced a head arm assembly… contributing to faster seek time.” (Goda, 2012)  
+The next generation of disk drive with higher capacity and faster access was needed soon again. Thanks to introduction of some new technologies were realized, such as: a flying head per surface, a hydraulic actuator, and a magnetic disk with a very hard surface film, it became 
+possible to improve RAMAC. The leader of the research and IBM development team, Rey Johnson, was working on ADF (Advanced Disk File) project. (Hoagland, 2003) The commercial version of the ADF  which was called IBM 1301 later, became essential for use of American Airlines Sabre System, the first nationwide real time airline reservations system. (Hoagland, 2003)  “The IBM 1301 Disk Storage Unit, released in 1961, introduced a head arm assembly… contributing to faster seek time.” (Goda, 2012)  
 
 ##### IBM 3340 “Winchester” (1973)
 
-The IBM 3340 disk drive was introduced in 1973 and had smaller size and lager capacity. (Goda, 2012) 
-It was called “Winchester” and allowed record more tracs and bits. This technology was adapted by 
-many manufactures. (Daintith, 2008)
+The IBM 3340 disk drive was introduced in 1973 and had smaller size and lager capacity. (Goda, 2012) It was called “Winchester” and allowed record more tracs and bits. This technology was adapted by many manufactures. (Daintith, 2008)
 
 ##### Seagate ST-506 (1980)
 
-Seagate Technology introduced Seagate ST-506 in 1980. It was designed for microcomputers, and it 
-changed market back then.  (Goda, 2012)  Its interface became an industry standard for early HDDs.
+Seagate Technology introduced Seagate ST-506 in 1980. It was designed for microcomputers, and it changed market back then.  (Goda, 2012)  Its interface became an industry standard for early HDDs.
 
 #### Floppy Disks (1970s–1980s)
 
-Alan Shugart and David Noble from IBM worked on development of floppy disk drive (FDD) from 1967 
-to 1970. In 1971 IBM introduced the first commercial version. Firstly, it was slow and store 
-minimum data. But later, having received a protective envelope, floppy disks demonstrated their 
-advantages: portability, reliability and resistance to damage. (Malloy, 2023) In fact, the US 
-nuclear weapons force still use FDD in a computer system from the 1970s that is still in operation today. (BBC, 2016)  
+Alan Shugart and David Noble from IBM worked on development of floppy disk drive (FDD) from 1967 to 1970. In 1971 IBM introduced the first commercial version. Firstly, it was slow and store minimum data. But later, having received a protective envelope, floppy disks demonstrated their advantages: portability, reliability and resistance to damage. (Malloy, 2023) In fact, the US nuclear weapons force still use FDD in a computer system from the 1970s that is still in operation today. (BBC, 2016)  
 
 ### 2.3 Optical and Electronic Era
 #### Optical Storage (1980s–2000s)
 ##### Optical Prototype
 
-James T. Russell, the inventor, proposed the idea of recording music using light as a mechanism in the 1960s. It was the invention of the optical disc in its perspective. But this was not taken seriously until Sony asked Russell to complete development in 1975 and paid him millions of dollars. He finished his project in 1980. This innovation led to the creation of CDs, DVDs and Blu-Ray. (Foote, 2017)
-Also, in 1970s were created videodisks.  They were used in the home entertainment optical 
-videodisk system. It was possible to record user information through certain applications and 
-then play it back on a consumer player. Video discs were not a specialized optical storage 
-facility for duplicating and distributing large amounts of data. (Lou, 1977) They had an almost 
-infinite lifespan due to the lack of physical contact between the disc and the optical pickup during playback. (Mennie, 1979) 
+James T. Russell, the inventor, proposed the idea of recording music using light as a mechanism in the 1960s. It was the invention of the optical disc in its perspective. But this was not taken seriously until Sony asked Russell to complete development in 1975 and paid him millions of dollars. He finished his project in 1980. This innovation led to the creation of CDs, DVDs and Blu-Ray. (Foote, 2017) Also, in 1970s were created videodisks.  They were used in the home entertainment optical videodisk system. It was possible to record user information through certain applications and then play it back on a consumer player. Video discs were not a specialized optical storage facility for duplicating and distributing large amounts of data. (Lou, 1977) They had an almost infinite lifespan due to the lack of physical contact between the disc and the optical pickup during playback. (Mennie, 1979) 
 
 ##### LaserDisc (1980)
 
-Laser discs were recordable and have interaction software. (Vandergrift, 1988) This means that 
-the user can use LD more easily thanks to the interface and recording data multiple times. Laser 
-discs became an alternative for long-term data storage. (Anžel, et al., 2021) Then came the 
-Pioneer and Magnavox consumer laser players, which customers can purchase 
-as home entertainment systems. Watching videos has become available at home. (Paris, 1983)
+Laser discs were recordable and have interaction software. (Vandergrift, 1988) This means that the user can use LD more easily thanks to the interface and recording data multiple times. Laser discs became an alternative for long-term data storage. (Anžel, et al., 2021) Then came the Pioneer and Magnavox consumer laser players, which customers can purchase as home entertainment systems. Watching videos has become available at home. (Paris, 1983)
 
 ##### CD / CD-ROM / CD-RW (1980s – 1990s)
 
-In 1979, Sony and Philips began working together to develop a compact disc (CD) for recording 
-audio. Video recording technologies have been adapted and the sound quality has been improved, 
-since the sound was then stored in digital format. (Nyce, 2023) In 1980, the companies 
-published the "Red Book", a specification standard for CDs. The first commercial CD hit the 
-market in 1982. In the 1980s, the CD (CD), which was used to record and play audio only, was 
-converted to CD-ROM (read-only memory) and became a serious competitor in computer storage. 
-It offered a large capacity and could store all the documents of the cabinet or even the 
-Electronic Encyclopedia. Users found economic and technical advantages in using CD-ROMs. (Chen, 1986) 
-In 1988, SCHIPMA wrote that the CD-ROM had opened a new stage in the organization and 
-manipulation of information and could even start the computer revolution. (SCHIPMA, 1988) Compact Disc-ReWritable (CD-RW) – was reversable and became a next step of evolution of CDs and new The Orange Book standards. It allowed users to rewrite information on disc multiple times. SONY wrote in their journal “TechPort”: “It’s quite remarkable that end-users can now work with technology previously limited to an elite group of industrial users”. (Matarazzo, 2001)
+In 1979, Sony and Philips began working together to develop a compact disc (CD) for recording audio. Video recording technologies have been adapted and the sound quality has been improved, since the sound was then stored in digital format. (Nyce, 2023) In 1980, the companies published the "Red Book", a specification standard for CDs. The first commercial CD hit the market in 1982. 
+In the 1980s, the CD (CD), which was used to record and play audio only, was converted to CD-ROM (read-only memory) and became a serious competitor in computer storage. It offered a large capacity and could store all the documents of the cabinet or even the Electronic Encyclopedia. Users found economic and technical advantages in using CD-ROMs. (Chen, 1986) In 1988, SCHIPMA wrote that the CD-ROM had opened a new stage in the organization and manipulation of information and could even start the computer revolution. (SCHIPMA, 1988) 
+Compact Disc-ReWritable (CD-RW) – was reversable and became a next step of evolution of CDs and new The Orange Book standards. It allowed users to rewrite information on disc multiple times. SONY wrote in their journal “TechPort”: “It’s quite remarkable that end-users can now work with technology previously limited to an elite group of industrial users”. (Matarazzo, 2001)
 
 ##### DVD (1990s -2000s)
 
-In the 1990s, companies competed in increasing the density of optical disc recording and storage. 
-They argued over the format in the mid-1990s. Sony, Philips, Toshiba, and Matsushita all offered 
-their own format for the new disc. But the struggle was avoided, and in 1995 the basic DVD
-(Digital Versatile Disc) format was announced. (Nicholls, 1996) It was the next generation of 
-storage devices. DVD became the only digital format that aimed to combine everything in one — 
-home entertainment, business information and computers, and to replace others. (Taylor, 1999) 
-In 1999 Bell wrote that DVD greater than just a new improved version of the CD (Bell, 1999). 
-In 1996 Parker emphasized that DVD could become the most commercially significant development 
-in the industry. (Parker, 1996) These opinions demonstrate how important and meaningful this innovation was back then. 
+In the 1990s, companies competed in increasing the density of optical disc recording and storage. They argued over the format in the mid-1990s. Sony, Philips, Toshiba, and Matsushita all offered their own format for the new disc. But the struggle was avoided, and in 1995 the basic DVD (Digital Versatile Disc) format was announced. (Nicholls, 1996) It was the next generation of storage devices. DVD became the only digital format that aimed to combine everything in one — 
+home entertainment, business information and computers, and to replace others. (Taylor, 1999) In 1999 Bell wrote that DVD greater than just a new improved version of the CD (Bell, 1999). In 1996 Parker emphasized that DVD could become the most commercially significant development in the industry. (Parker, 1996) These opinions demonstrate how important and meaningful this innovation was back then. 
 
 ##### Blu-ray Discs (2000s – today)
 
-In 2000s it became desirable to store a high-definition video, which hold a large amount of data. 
-The use of blue laser technology made it possible to create a suitable device, and the first 
-DVR-Blue was introduced in 2000 by Sony and Pioneer. Later in 2002 seven leading companies, 
-including Sony and Pioneer founded the Blue-ray Disc Association (BDA) and developed Blue-ray 
-Disc format. PlayStation 3 movie games, Walt Disney Pictures, and Warner Brothers Pictures have 
-since been available on Blu-ray. The Blu-ray disc, and its next generation the Ultra HD (UHD) 
-Blu-ray provide highest storage capacity for optical devices. They also are more resistible to 
-damage and can be used during almost 150 years. But obviously we don’t have opportunity to confirm it yet. (Anžel, et al., 2021) 
+In 2000s it became desirable to store a high-definition video, which hold a large amount of data. The use of blue laser technology made it possible to create a suitable device, and the first DVR-Blue was introduced in 2000 by Sony and Pioneer. Later in 2002 seven leading companies, including Sony and Pioneer founded the Blue-ray Disc Association (BDA) and developed Blue-ray Disc format. PlayStation 3 movie games, Walt Disney Pictures, and Warner Brothers Pictures have since been available on Blu-ray. The Blu-ray disc, and its next generation the Ultra HD (UHD) Blu-ray provide highest storage capacity for optical devices. They also are more resistible to damage and can be used during almost 150 years. But obviously we don’t have opportunity to confirm it yet. (Anžel, et al., 2021) 
 
 #### Magneto-Optical Drives (1987 – 2010)
 
-How wrote White in 1983, therefore, the demand for increasing packaging density has not decreased, 
-new technology of magneto-optical recording (MO) was investigated. (White, 1983) In 1986, 
-Meiklejohn wrote that erasable magneto-optical recording could replace electomagnetic recording, 
-because it provided greater access speeds, higer recording density and greater storage capacity 
-than Winchester drive and floppy discs. Sony and Verbatium were the first to announce the 
-prototypes. (Meiklejohn, 1986) The MO disc drive was first used in the NeXT Computer in 1987. 
-MO discs were widely used in the 1991-2000s. But when cheaper and faster devices became 
-available, they lost their popularity. MO drives are considered obsolete and have not been 
-produced since 2010. ( StorageNewsletter, 2018)
+How wrote White in 1983, therefore, the demand for increasing packaging density has not decreased, new technology of magneto-optical recording (MO) was investigated. (White, 1983) In 1986, Meiklejohn wrote that erasable magneto-optical recording could replace electomagnetic recording, because it provided greater access speeds, higer recording density and greater storage capacity than Winchester drive and floppy discs. Sony and Verbatium were the first to announce the 
+prototypes. (Meiklejohn, 1986) The MO disc drive was first used in the NeXT Computer in 1987. MO discs were widely used in the 1991-2000s. But when cheaper and faster devices became available, they lost their popularity. MO drives are considered obsolete and have not been produced since 2010. ( StorageNewsletter, 2018)
 
 ### 2.4 Flash Memory and Solid-State Era
 
 #### First Flash Memory (1980s–1990s)
 
-Flash memory was invented by Toshiba engineer Fujio Masuoka in the 1980. It was widely commercially 
-successful. (Goda, 2012) NAND flash memory appeared on the market in the 1990s. In 1999, the 
-Israeli company M-Systems registered the first patent for a "USB flash drive for PC". (Goldstein, 2017) 
+Flash memory was invented by Toshiba engineer Fujio Masuoka in the 1980. It was widely commercially successful. (Goda, 2012) NAND flash memory appeared on the market in the 1990s. In 1999, the Israeli company M-Systems registered the first patent for a "USB flash drive for PC". (Goldstein, 2017) 
 
 #### USB Flash Drive (2000s)
 
-A portable USB flash drive appeared on the market in 2000. This removable, versatile and small 
-storage device contains a built-in USB plug into computers. It has large storage capacity and 
-replaced floppy disks, CDs and DVDs for portable data storage. (Foote, 2017)  USB flash drive 
-had marketing names such as “ThumbDrive” by Trek 2000 International, a Singaporean company, and 
-“DiskOnKey” by IBM. (Goldstein, 2017)
+A portable USB flash drive appeared on the market in 2000. This removable, versatile and small storage device contains a built-in USB plug into computers. It has a large storage capacity and replaced floppy disks, CDs and DVDs for portable data storage. (Foote, 2017)  USB flash drive had marketing names such as “ThumbDrive” by Trek 2000 International, a Singaporean company, and “DiskOnKey” by IBM. (Goldstein, 2017)
 
 
 #### Solid-State Drives (SSDs) (2000s–Today)
 
-In fact, the first SSD, Bulk Core, was demonstrated in 1976. It was smaller, moving parts were 
-reduced and it did not need constant power to storage data. Modern SSDs support all HHD 
-functions but use different technologies and have no moving parts. For example, an SSD memory 
-chip can be used as a separate box and connected to a laptop or be part of a motherboard. 
-“SSDs “can” be portable but will not fit in your pocket.” (Foote, 2017) 
+In fact, the first SSD, Bulk Core, was demonstrated in 1976. It was smaller, moving parts were reduced and it did not need constant power to storage data. Modern SSDs support all HHD functions but use different technologies and have no moving parts. For example, an SSD memory chip can be used as a separate box and connected to a laptop or be part of a motherboard. “SSDs “can” be portable but will not fit in your pocket.” (Foote, 2017) 
 
 ### 2.5 Cloud Storage (2010s–Present)
 
-The idea of cloud storage first appeared in the 1960s but was only realized after Salesforce.com 
-introduced application delivery through a website in 1999, something that had never been done 
-before. Amazon followed suit and in 2002 offered Internet-oriented (cloud) services and data 
-storage. Then Amazon started renting computers for other businesses in 2006. This was the 
-beginning of cloud storage as we know it today. This technology reduces companies' hardware and
-maintenance costs. (Anžel, et al., 2021) Cloud provides near-infinite amount of data storage and 
-scalability. Accessibility to data is possible from any place anytime. Cloud storage typically 
-has strong built-in security systems, such as encryption and authentication. (Foote, 2017)
+The idea of cloud storage first appeared in the 1960s but was only realized after Salesforce.com introduced application delivery through a website in 1999, something that had never been done before. Amazon followed suit and in 2002 offered Internet-oriented (cloud) services and data  storage. Then Amazon started renting computers for other businesses in 2006. This was the beginning of cloud storage as we know it today. This technology reduces companies' hardware and
+maintenance costs. (Anžel, et al., 2021) Cloud provides near-infinite amount of data storage and scalability. Accessibility to data is possible from any place anytime. Cloud storage typically has strong built-in security systems, such as encryption and authentication. (Foote, 2017)
 
 ### 2.6 Novel Media Era
 
-Novel and alternative media for data storage are developing now. They include molecular and 
-atomic media. Organic molecular media, such as synthetic metabolomes, metal-organic clusters, 
-and synthetic DNA molecules, and inorganic clusters are considered. (Anžel, et al., 2021)
+Novel and alternative media for data storage are developing now. They include molecular and atomic media. Organic molecular media, such as synthetic metabolomes, metal-organic clusters, and synthetic DNA molecules, and inorganic clusters are considered. (Anžel, et al., 2021)
 
 ## 3. Business Viewpoint: Impact of Storage Evolution on Organisations
 
