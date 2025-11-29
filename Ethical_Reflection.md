@@ -1,4 +1,4 @@
-Ethical Reflection & Improvements on Storage Devices
+## Ethical Reflection & Improvements on Storage Devices
   Why Storage Ethics Matter
 Storage devices sit quietly behind almost everything we do with computers. They hold family photos and medical records, student projects and company ledgers, scientific datasets and legal evidence. We experience them as icons like: Documents, Photos and Backups.
 but each file lives somewhere, on a drive made from mined materials, assembled in factories, and powered by energy.
