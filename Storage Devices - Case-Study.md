@@ -6,7 +6,7 @@
 
 ## ANASTASIIA VOLOSHYNA
 
-## 
+## IVAN SIDORKA
 
 ## 1. Introduction
 
