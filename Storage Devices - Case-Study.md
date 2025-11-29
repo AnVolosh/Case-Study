@@ -6,9 +6,7 @@
 
 ## ANASTASIIA VOLOSHYNA
 
-##
-
-##
+## 
 
 ## 1. Introduction
 
@@ -22,8 +20,6 @@ This report examines the evolution of storage devices from four complementary pe
 - **Ethical reflection** – how material use, privacy, platform power, energy, and e-waste create ongoing responsibilities.
 
 The conclusion brings these strands together and shows how storage has moved from a background technical detail to a strategic and ethical concern at the centre of modern computing.
-
----
 
 ## 2. Historical Development of Data Storage
 
@@ -182,8 +178,6 @@ The downside is that financial institutions must protect vast archives of sensit
 
 For organisations, storage evolution has moved information handling from manual, paper-based processes to digital, always-on infrastructure. Higher speed and capacity enabled automation and real-time services; lower cost made it economical to retain and analyse large datasets; and networked access allowed collaboration across departments and borders. Storage is now a strategic asset that must be managed, not just a technical component.
 
----
-
 ## 4. Engineering Viewpoint: An Architectural Analysis of Storage Evolution
 
 ### 4.1 Framing: Architecture, Scalability, Technical Debt
@@ -326,18 +320,14 @@ No single actor can solve storage ethics. Responsibilities include:
 
 The emphasis is on realistic changes that can be implemented now rather than waiting for ideal conditions.
 
----
-
 ## 6. Conclusion
 
 The evolution of data storage devices, when examined through a multi-perspective lens, reveals a complex interplay of technological innovation, economic imperatives, engineering trade-offs, and ethical responsibilities.
-From a #historical perspective# , the trajectory is one of relentless progress towards increasing capacity and speed, shrinking physical size, and decreasing cost per bit. The timeline clearly shows distinct eras, each defined by a dominant technology: punched cards and magnetic tape enabled the first large-scale data processing; HDDs and optical media brought random access and mass distribution; flash memory and SSDs delivered high performance without moving parts; and cloud storage now offers scalable, on-demand capacity. This historical progression forms the foundational narrative upon which the other perspectives are built.
-From a #business perspective#, this evolution transformed storage from a scarce and expensive resource into a managed utility and strategic asset. Organisations can now retain and analyse large datasets and support real-time services, but they also incur ongoing costs in management, security, and compliance.
-From an #engineering perspective#, storage has always been an architectural bottleneck and a primary design driver. The progression was not a simple path of improvement, but a cyclical process of resolving one set of constraints while accumulating a different form of technical debt—from the mechanical fragility of early media to the distributed coordination challenges of modern systems.
-From an #ethical perspective#g, this technological and economic expansion is not without consequence. Storage connects the abstract world of data to the physical realities of mining, manufacturing, energy use, platform power, privacy, and e-waste. Decisions about what to store, where, for how long, and under whose control have direct and lasting consequences.
+From a **historical perspective**, the trajectory is one of relentless progress towards increasing capacity and speed, shrinking physical size, and decreasing cost per bit. The timeline clearly shows distinct eras, each defined by a dominant technology: punched cards and magnetic tape enabled the first large-scale data processing; HDDs and optical media brought random access and mass distribution; flash memory and SSDs delivered high performance without moving parts; and cloud storage now offers scalable, on-demand capacity. This historical progression forms the foundational narrative upon which the other perspectives are built.
+From a **business perspective**, this evolution transformed storage from a scarce and expensive resource into a managed utility and strategic asset. Organisations can now retain and analyse large datasets and support real-time services, but they also incur ongoing costs in management, security, and compliance.
+From an **engineering perspective**, storage has always been an architectural bottleneck and a primary design driver. The progression was not a simple path of improvement, but a cyclical process of resolving one set of constraints while accumulating a different form of technical debt—from the mechanical fragility of early media to the distributed coordination challenges of modern systems.
+From an **ethical perspective**, this technological and economic expansion is not without consequence. Storage connects the abstract world of data to the physical realities of mining, manufacturing, energy use, platform power, privacy, and e-waste. Decisions about what to store, where, for how long, and under whose control have direct and lasting consequences.
 The overarching lesson is that storage must be treated as a socio-technical system. Better outcomes depend on combining historical awareness, careful engineering, realistic business planning, and explicit ethical commitments. Devices built to last and be repaired, encryption and deletion enabled by default, transparent lifecycle information, and sensible retention policies are all feasible and necessary steps. Ultimately, storage is no longer just about capacity or speed; it is about the stewardship of the memories and records entrusted to our care.
-
----
 
 ## 7. References
 
