@@ -310,14 +310,22 @@ independent environmental assessment;
 open standards to share benefits.
 
 ## Practical moves !all stakeholders! :
-Make secure deletion first class is:simple, guided, verifiable—device and cloud.
-Default to encryption conains: endpoints and backups, with sane recovery.
-Design for longevity: modular where possible; honest, published endurance data.
-Honest dashboards: show retention, replicas, energy n carbon; offer safe pruning.
-Smarter tiering: auto archive cold data; allow pinning exceptions.
-Portability and fair pricing: reduce egress barriers; support standard exports.
-Align policy and behavior: automate retention and deletion to prevent hoarding.
-Education in UI: replace jargon with plain language at the moment of decision.
+
+Make Secure Deletion first class is: Simple, guided, verifiable device and cloud.
+
+Default to encryption conains: Endpoints and backups, with sane recovery.
+
+Design for Longevity: Modular where possible; honest, published endurance data
+
+Honest Dashboards: Show retention, replicas, energy n carbon; offer safe pruning.
+
+Smarter tiering: Auto archive cold data; allow pinning exceptions.
+
+Portability and Fair Pricing: Reduce egress barriers; support standard exports.
+
+Align policy and Behavior: Automate retention and deletion to prevent hoarding.
+
+Education in UI: Replace jargon with plain language at the moment of decision.
 
 ## 6. Conclusion
 
