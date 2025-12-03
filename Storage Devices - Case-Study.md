@@ -267,8 +267,9 @@ Data locality: show where data lives; let users choose regions; explain complian
 
 Deletion verification: certify real propagation across replicas and backups.
 
-### Energy, Carbon, and Right Sized Retention Storage consumes energy directly !hardware & cooling! 
-### And indirectly !manufacturing, networks!
+### Energy, Carbon, and Right Sized Retention Storage consumes energy
+### directly !hardware & cooling! 
+### and indirectly !manufacturing, networks!
 ### Not all data needs hot, instant access.
 
 Hot vs cold: tier data; keep only truly hot items on high performance, high power tiers.
